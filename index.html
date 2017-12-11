@@ -2,26 +2,28 @@
 <html>
 <head>
 	<title>Tic Tac Toe</title>
-	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 </head>
 <body>
 	<h1>Tic Tac Toe</h1>
 	<table>
 		<tr>
-			<td></td>
-			<td class="vertical"></td>
-			<td></td>
+			<td id="top-left" class="box"></td>
+			<td id="top-mid" class="box vertical"></td>
+			<td id="top-right" class="box"></td>
 		</tr>
 		<tr>
-			<td class="horizontal"></td>
-			<td class="vertical horizontal"></td>
-			<td class="horizontal"></td>
+			<td id="center-left" class="box horizontal"></td>
+			<td id="center-mid" class="box vertical horizontal"></td>
+			<td id="center-right" class="box horizontal"></td>
 		</tr>
 		<tr>
-			<td></td>
-			<td class="vertical"></td>
-			<td></td>
+			<td id="bot-left" class="box"></td>
+			<td id="bot-mid" class="box vertical"></td>
+			<td id="bot-right" class="box"></td>
 		</tr>
 	</table>
+	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>

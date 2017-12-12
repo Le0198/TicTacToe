@@ -19,6 +19,7 @@ resetButton.addEventListener("click",function(){
 			boxes[i][j].textContent = "";
 			boxes[i][j].classList.remove("O");
 			boxes[i][j].classList.remove("X");
+			gameOver = false;
 		}
 	}
 });
